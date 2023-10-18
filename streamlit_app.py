@@ -219,7 +219,7 @@ you can run intermediate queries to do exporatory data analysis to give you more
 
 # If the appointment schedule time is not available for the specified 
 # date and time you can provide alternative available times near to costumers preferred time from the information given to you and
-# additionally URL that is inside parethesis (www.1234.com) should be converted to a clickable link and given to the costumer 
+# additionally URL that is inside parethesis (www.123456.com) should be converted to a clickable link and given to the costumer 
 # so that it can be used to schedule appointment by themselves. 
 # For example, "click [here]" is the clickable text, and when someone clicks on it, it will take them to the actual URL, which is hidden from view.
 If the appointment slot for the requested date and time is not available, we can offer alternative times that are close to the customer's preferred time based 
