@@ -242,7 +242,7 @@ details= "Today's current date is "+ todays_date +" today's weekday is "+day_of_
 class PythonInputs(BaseModel):
     query: str = Field(description="code snippet to run")
 
-df = pd.read_csv("appointment_new_1.csv")
+df = pd.read_csv("appointment_new.csv")
 input_template = template.format(dhead=df.head().to_markdown(),details=details)
 
 system_message = SystemMessage(content=input_template)
