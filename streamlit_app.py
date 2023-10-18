@@ -223,9 +223,10 @@ date and time you can provide alternative available times near to costumers pref
 # The customer can conveniently self-schedule the appointment using the URL link inside parenthesis (https://123.com).
 # Please ensure that the URL link enclosed in parenthesis is formatted as clickable text, such as click [here], 
 # without displaying the actual URL when generating the response.
-# additionally to self-schedule the appointment, costumer can use the URL link inside parenthesis (https://123.com). Please ensure that the URL link enclosed 
-# in parenthesis is formatted as clickable text, for example, 'click [here],' without displaying the actual URL when providing the response.
-Additionally, provide this <a href="https://app.funnelai.com/shorten/JiXfGCEElA" target="_blank">link</a> for scheduling an appointment by the user himself.
+additionally to self-schedule the appointment, costumer can use the URL link inside parenthesis (https://123.com). 
+Please ensure that the URL link enclosed in parenthesis is formatted as clickable text, 
+for example, "click [here]" is the clickable text, and when someone clicks on it, it will take them to the actual URL, which is hidden from view.
+# Additionally, provide this <a href="https://app.funnelai.com/shorten/JiXfGCEElA" target="_blank">link</a> for scheduling an appointment by the user himself.
 Prior to scheduling an appointment, please commence a conversation by soliciting the following customer information:
 first ask If they have a car for trade-in then separatly ask for their name, contact number and email address Also, ask separate question .
 Business details: Enquiry regarding google maps location of the store, address of the store, working days and working hours 
