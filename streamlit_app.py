@@ -34,6 +34,7 @@ from langchain.prompts import MessagesPlaceholder
 from langchain.agents import AgentExecutor
 from langchain.smith import RunEvalConfig, run_on_dataset
 import pandas as pd
+llm = ChatOpenAI(model="gpt-4-1106-preview", temperature = 0)
 
 hide_share_button_style = """
     <style>
@@ -145,7 +146,7 @@ if 'past' not in st.session_state:
 if 'user_name' not in st.session_state:
     st.session_state.user_name = None
 
-llm = ChatOpenAI(model="gpt-4", temperature = 0)
+
 langchain.debug=True
 memory_key = "history"
 memory = AgentTokenBufferMemory(memory_key=memory_key, llm=llm)
